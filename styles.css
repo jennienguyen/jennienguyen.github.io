@@ -1,0 +1,77 @@
+#logo {
+    font-family: gothic-open-shaded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-size: 3em;
+    padding-left: 15%;
+    color: #2D799E;
+}
+.masthead-wrap {
+    height: 250px;
+    background-color: #DBEEF8;
+}
+
+.nav-list {
+    list-style-type: none;
+    float: right;
+    padding-top: 35px;
+    padding-right: 12%;
+}
+
+
+.nav-list-item {
+    display: inline;
+    padding: 15px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nav-list-item a {
+    color: #2D799E;
+    text-decoration: underline;
+    text-decoration-color: #B3D89C;
+}
+
+.nav-list-item a:hover {
+    color: #2D799E;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration-color: #B3D89C;
+}
+
+#jennie {
+    color: #A3C58E;
+}
+
+#footer {
+    background-color: #DBEEF8;
+}
+
+.footer-list li {
+    display: inline;
+    list-style-type: none;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #3DA5D9;
+
+}
+
+.footer-list li a {
+    color: #3DA5D9;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.skills li {
+    list-style-type: none;
+}
+
+header {
+    color: #3DA5D9;
+}
