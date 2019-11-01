@@ -17,8 +17,8 @@
 <body>
     <!-- Header -->
     <section id = "top">
-        <div class = "col-md-12 col-xs-12">
-            <header id = "home" class = "nav-bar">
+        <div id = "home" class = "col-md-12 col-xs-12">
+            <header class = "nav-bar">
                 <!-- TODO: make responsive-->
                 <div class = "col-md-6 col-xs-6">
                     <p id = "logo">JENNIE NGUYEN</p>
@@ -42,8 +42,16 @@
             <div class = "container">
                 <div class = "row">
                     <div class = "col-md-12">
-                        <h2 id = "jennie">Hello, I'm Jennie</h2>
-                        <p class="description">computer science student.</p>
+                        <article>
+                            <figure>
+                                <img id="headshot" src="images/headshot.png" alt="headshot"> <!--TODO-->
+                                <p id = "jennie">Hello!</p>
+                                <p id = "bio"> My name is Jennie and I am a senior computer science and visual arts student at Boston University.
+                                    I will graduating in May 2020 and am currently searching for a full time position in software engineering and
+                                    full stack web development. Outside  of coding, I enjoy film photography and hiking.</p>
+                            </figure>
+                        </article>
+
                     </div>
                 </div>
             </div>
@@ -52,98 +60,76 @@
 
         <div class = "masthead-wrap">
             <div id = "masthead">
-
-            </div>
-        </div>
-
-    </section>
-
-    <section id = "hello">
-        <div class = "container">
-            <div class = "row">
-                <div class = "col-md-12">
-                    <article>
-                        <figure>
-                            <img src="images/o.jpg"> <!--TODO-->
-                        </figure>
-                        <h3>Hello.</h3>
-                        <p> My name is Jennie and I am a senior computer science student at Boston University.
-                            I am graduating May 2020 and searching for a full time position in software engineering and
-                            full stack web development with an emphasis on web design. Outside  of coding,
-                            I enjoy film photography and hiking.</p>
-                    </article>
-                </div>
             </div>
         </div>
     </section>
-
-    <!--Breaker-->
-    <div class = "breaker">
-        <div class = "container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class = "line"><hr></div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!--ABOUT SECTION-->
     <section id = "about">
         <div class = "container">
             <div class = "row">
                 <div class = "col-md-12">
-                    <article>
+                    <article class = "about_article">
                         <header>
-                            <h2 >About</h2>
+                            <h2>About</h2>
                         </header>
-                        <!--TODO: add icon education-->
 
                         <!--EDUCATION-->
-                        <div class = "col-md-8">
-                            <div class = "education">
+                        <div class = "col-md-10 col-centered">
+                            <div class = "education ">
                                 <h3>Education</h3>
+                                <p class="description">Computer Science</p>
                                 <h5>Boston University</h5>
                                 <ul>
-                                    <li>Pursuing BA in Computer Science</li>
+                                    <li>Bachelor of Arts</li>
                                     <li>Minor in Visual Arts</li>
                                     <li>Expected graduation date of May 2020</li>
+                                    <br>
                                 </ul>
                             </div>
                         </div>
 
                         <!--ACTIVITIES-->
-                        <div class = "col-md-8">
+                        <div class = "col-md-10 col-centered">
                             <div class = "activities">
                                 <h3>Activities</h3>
+
+                                <p class = "description">President</p>
                                 <h5>BU Women in Computer Science</h5>
                                 <ul>
-                                    <li>President</li>
                                     <li>As president of BU WiCS, I want give more opportunities and help other women
                                         be more confident in a male-dominated field.</li>
+                                    <br>
                                 </ul>
                             </div>
                         </div>
 
                         <!--WORK EXPEREINCE-->
-                        <div class = "col-md-8">
+                        <div class = "col-md-10 col-centered">
                             <div class = "work-experience">
                                 <h3>Work Experience</h3>
-                                <h5>Boston University Medical Campus Applications</h5>
-                                <p>Data Curator May 2018 - August 2019 </p>
+
+                                <p class = "description">Data Curator</p>
+                                <h5>BU Medical Campus Applications</h5>
                                 <ul>
                                     <li>Created and managed profiles for over 5000 faculty and researchers at
-                                        BU Medical School and Boston Medical Center.</li>
+                                        BU Medical School and Boston Medical Center. Experience with DBMS.</li>
                                 </ul>
 
+                                <p class = "description">Student Manager</p>
                                 <h5>Mugar Memorial Library</h5>
-                                <p>Student Manager September 2016 - present</p>
                                 <ul>
                                     <li>Manages staff of 15 student employees. Involved in training new hires and communicating
                                         with supervisor.</li>
+                                    <br>
                                 </ul>
                             </div>
                         </div>
+
+<!--                        <form method="get" action="documents/Resume%2011-1-19.pdf">-->
+<!--                            <button type="submit">Download Resume</button>-->
+<!--                        </form>-->
+
                     </article>
                 </div>
             </div>
@@ -166,18 +152,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <article>
+                    <article class = "skill_article">
                         <header>
                             <h2>Skills</h2>
                         </header>
 
-                        <div class="col-md-6">
+                        <div class="col-md-4 col-md-offset-2">
                             <div class="skills">
 
                                 <ul><!--TODO: add class for TODO (maybe un-bulleted list)-->
                                     <li class="skill_name">Python</li>
                                     <i><img src="images/star-black-18dp/1x/round_star_black_18dp.png" height="18"
-                                            width="18"/></i>
+                                            width="18" class="grayscale"/></i>
                                     <i><img src="images/star-black-18dp/1x/round_star_black_18dp.png" height="18"
                                             width="18"/></i>
                                     <i><img src="images/star-black-18dp/1x/round_star_black_18dp.png" height="18"
@@ -230,14 +216,11 @@
                                     <i><img src="images/star_half-black-18dp/1x/round_star_half_black_18dp.png"
                                             height="18" width="18"/></i>
                                 </ul>
-
-
                             </div>
-
                         </div>
 
                         <!-- skills 2nd column-->
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="skills">
                                 <ul>
                                     <li class="skill_name">Javascript</li>
@@ -301,11 +284,11 @@
                         <!--RELATED COURSEWORK-->
                         <div class="col-md-12">
                             <div class="courses">
-                                <h4>Related Coursework</h4>
+                                <h3 class = "related">Related Coursework</h3>
 
                                 <!--course name column 1-->
-                                <div class="col-md-6">
-                                    <ul>
+                                <div class="col-md-4 col-md-offset-2">
+                                    <ul class="course_list">
                                         <li>Internet Technologies and Web Programming</li>
                                         <li>Discrete Mathematics</li>
                                         <li>Linear Algebra</li>
@@ -315,8 +298,8 @@
                                 </div>
 
                                 <!--course name column 1-->
-                                <div class="col-md-6">
-                                    <ul>
+                                <div class="col-md-4 col-md-offset-1">
+                                    <ul class="course_list">
                                         <li>Concepts of Programming Languages</li>
                                         <li>Algorithms</li>
                                         <li>Software Engineering</li>
@@ -348,7 +331,10 @@
         <div class="container">
             <div class = "row">
                 <div class = "col-md-12">
-                    <header><h2>Projects</h2></header>
+                    <article id= "project_article">
+                        <header><h2>Projects</h2></header>
+                        <p>to be updated...</p>
+                    </article>
                 </div>
             </div>
             <!--TODO-->
@@ -364,13 +350,12 @@
                     <article>
                         <header><h2>Contact</h2></header>
                         <a id="contact"></a>
-                        <ul class = "footer-list">
-                            <li><a href="https://www.linkedin.com/in/jennie-nguyen08/">LinkedIn</a></li>
-                            <li><a href="https://github.com/jennienguyen">Github</a></li>
-                            <li><a href="mailto:nljenn14@gmail.com" class="email-lnk">nljenn14@gmail.com</a></li>
-                            <li><a href="mailto:jennien@bu.edu" class="email-lnk">jennien@bu.edu</a></li>
-                            <li>(504) 275-9982</li>
-                        </ul>
+                            <a href="https://www.linkedin.com/in/jennie-nguyen08/" target="_blank"><img src="images/LI-In-Bug.png" height="27" width="31.75"/></a>
+                            <a href="https://github.com/jennienguyen" target="_blank"><img src="images/GitHub-Mark-120px-plus.png" height="32" width="32"/></a>
+                            <a href="https://www.instagram.com/jennie.n/" target="_blank"><img src="images/IG_Glyph_Fill.png" height="40" width="40"/></a>
+                            <br>
+                            <a id = "email_link" href="mailto:jennien@bu.edu">Email Me!</a>
+                            <p>(504) 275-9982</p>
                     </article>
                 </div>
             </div>
