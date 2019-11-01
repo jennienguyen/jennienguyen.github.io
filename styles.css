@@ -7,13 +7,53 @@
     padding-left: 15%;
     color: #2D799E;
 }
+
+#home {
+    background-color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#headshot {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#jennie {
+    color: #A3C58E;
+    text-align: center;
+    font-size: x-large;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+#bio {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:  #4d4d4d;
+    font-size: larger;
+}
+
 .masthead-wrap {
-    height: 250px;
+    height: 25%;
     background-color: #DBEEF8;
 }
 
+/* TODO: make drop down menu for small screen*/
 .nav-list {
-    list-style-type: none;
     float: right;
     padding-top: 35px;
     padding-right: 12%;
@@ -42,36 +82,152 @@
     text-decoration-color: #B3D89C;
 }
 
-#jennie {
-    color: #A3C58E;
+h2 {
+    color: #2D799E;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-decoration-color: #B3D89C;
+}
+
+h3 {
+    color: #3DA5D9;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+
+}
+
+h5 {
+    color: #000;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    margin-left: 40px;
+    padding-top: 4px;
+}
+
+.description {
+    float:right;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: medium;
+}
+
+.about_article {
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.about_article li {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+}
+
+
+/*button {*/
+/*    background-color: #B3D89C;*/
+/*    border: white;*/
+/*    font-family: brandon-grotesque, sans-serif;*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*    font-size: 18px;*/
+/*    display: inline-block;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
+/*form {*/
+/*    display: inline-block;*/
+/*}*/
+.skill_article {
+    padding-top: 30px;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    align: center;
+}
+
+.skill_name {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4d4d4d;
+    font-size: medium;
+}
+
+.skills ul {
+    text-align: center;
+    padding: 0;
+}
+
+.related {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.courses ul {
+    text-align: left;
+    padding: 0;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: medium;
+    color: #4d4d4d;
+
+}
+
+.project_article {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#project p {
+    text-align: center;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    color: #4d4d4d;
 }
 
 #footer {
     background-color: #DBEEF8;
 }
 
-.footer-list li {
-    display: inline;
-    list-style-type: none;
-    font-family: futura-pt, sans-serif;
+footer {
+    text-align: center;
+    font-family: brandon-grotesque, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    color: #3DA5D9;
-
+    color: #4d4d4d;
+    font-size: medium;
 }
 
-.footer-list li a {
-    color: #3DA5D9;
-    padding-right: 10px;
-    padding-left: 10px;
-
+footer img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
-.skills li {
-    list-style-type: none;
+#email_link {
+    margin-top: 20px;
+    font-size: large;
+    color: #4d4d4d;
+    text-decoration: underline;
+    text-decoration-color: #B3D89C;
 }
 
-header {
-    color: #3DA5D9;
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
+
